@@ -1,0 +1,251 @@
+groomer_id,service_id,service_type,description,price
+76,1,Nail Trim,A complete nail trim package for your pet.,110.89
+101,1,Haircut,A complete haircut package for your pet.,42.36
+18,1,Nail Trim,A complete nail trim package for your pet.,116.37
+101,2,Nail Trim,A complete nail trim package for your pet.,36.35
+30,1,Nail Trim,A complete nail trim package for your pet.,147.0
+55,1,Haircut,A complete haircut package for your pet.,42.92
+139,1,Haircut,A complete haircut package for your pet.,71.17
+133,1,Bath,A complete bath package for your pet.,74.62
+82,1,Bath,A complete bath package for your pet.,96.81
+69,1,Nail Trim,A complete nail trim package for your pet.,128.53
+29,1,Haircut,A complete haircut package for your pet.,71.19
+49,1,Bath,A complete bath package for your pet.,124.05
+139,2,Bath,A complete bath package for your pet.,131.57
+104,1,Haircut,A complete haircut package for your pet.,49.4
+77,1,Haircut,A complete haircut package for your pet.,71.21
+102,1,Haircut,A complete haircut package for your pet.,26.93
+68,1,Haircut,A complete haircut package for your pet.,48.04
+90,1,Nail Trim,A complete nail trim package for your pet.,56.96
+55,2,Bath,A complete bath package for your pet.,71.0
+88,1,Bath,A complete bath package for your pet.,64.58
+30,2,Bath,A complete bath package for your pet.,48.26
+26,1,Nail Trim,A complete nail trim package for your pet.,71.73
+111,1,Bath,A complete bath package for your pet.,84.03
+82,2,Haircut,A complete haircut package for your pet.,30.1
+112,1,Nail Trim,A complete nail trim package for your pet.,146.72
+139,3,Haircut,A complete haircut package for your pet.,33.15
+15,1,Haircut,A complete haircut package for your pet.,51.69
+71,1,Bath,A complete bath package for your pet.,38.41
+111,2,Haircut,A complete haircut package for your pet.,122.81
+18,2,Bath,A complete bath package for your pet.,26.06
+15,2,Haircut,A complete haircut package for your pet.,67.38
+89,1,Haircut,A complete haircut package for your pet.,83.18
+139,4,Haircut,A complete haircut package for your pet.,120.79
+33,1,Nail Trim,A complete nail trim package for your pet.,59.82
+114,1,Bath,A complete bath package for your pet.,93.79
+29,2,Nail Trim,A complete nail trim package for your pet.,62.36
+33,2,Bath,A complete bath package for your pet.,139.63
+124,1,Bath,A complete bath package for your pet.,48.19
+69,2,Nail Trim,A complete nail trim package for your pet.,102.11
+88,2,Nail Trim,A complete nail trim package for your pet.,64.9
+26,2,Nail Trim,A complete nail trim package for your pet.,44.28
+89,2,Bath,A complete bath package for your pet.,108.18
+122,1,Haircut,A complete haircut package for your pet.,77.37
+42,1,Bath,A complete bath package for your pet.,72.38
+104,2,Nail Trim,A complete nail trim package for your pet.,99.6
+69,3,Haircut,A complete haircut package for your pet.,121.75
+89,3,Bath,A complete bath package for your pet.,42.86
+139,5,Bath,A complete bath package for your pet.,44.23
+139,6,Haircut,A complete haircut package for your pet.,73.26
+75,1,Nail Trim,A complete nail trim package for your pet.,97.32
+117,1,Nail Trim,A complete nail trim package for your pet.,39.22
+93,1,Nail Trim,A complete nail trim package for your pet.,104.95
+15,3,Haircut,A complete haircut package for your pet.,74.59
+137,1,Haircut,A complete haircut package for your pet.,149.04
+134,1,Bath,A complete bath package for your pet.,95.7
+139,7,Nail Trim,A complete nail trim package for your pet.,77.39
+56,1,Haircut,A complete haircut package for your pet.,118.28
+96,1,Haircut,A complete haircut package for your pet.,69.44
+133,2,Nail Trim,A complete nail trim package for your pet.,147.97
+93,2,Bath,A complete bath package for your pet.,77.19
+109,1,Bath,A complete bath package for your pet.,38.64
+77,2,Nail Trim,A complete nail trim package for your pet.,71.13
+68,2,Bath,A complete bath package for your pet.,126.34
+124,2,Nail Trim,A complete nail trim package for your pet.,56.51
+98,1,Nail Trim,A complete nail trim package for your pet.,29.68
+90,2,Haircut,A complete haircut package for your pet.,107.52
+42,2,Haircut,A complete haircut package for your pet.,82.67
+77,3,Nail Trim,A complete nail trim package for your pet.,118.44
+42,3,Haircut,A complete haircut package for your pet.,114.91
+75,2,Bath,A complete bath package for your pet.,136.56
+55,3,Nail Trim,A complete nail trim package for your pet.,109.89
+112,2,Bath,A complete bath package for your pet.,57.49
+90,3,Haircut,A complete haircut package for your pet.,114.81
+42,4,Bath,A complete bath package for your pet.,94.33
+102,2,Nail Trim,A complete nail trim package for your pet.,130.74
+93,3,Haircut,A complete haircut package for your pet.,79.7
+6,1,Nail Trim,A complete nail trim package for your pet.,117.58
+6,2,Nail Trim,A complete nail trim package for your pet.,83.2
+68,3,Haircut,A complete haircut package for your pet.,101.06
+96,2,Haircut,A complete haircut package for your pet.,69.26
+18,3,Nail Trim,A complete nail trim package for your pet.,100.69
+26,3,Haircut,A complete haircut package for your pet.,44.75
+96,3,Nail Trim,A complete nail trim package for your pet.,147.93
+30,3,Nail Trim,A complete nail trim package for your pet.,41.84
+101,3,Bath,A complete bath package for your pet.,67.48
+56,2,Nail Trim,A complete nail trim package for your pet.,48.2
+104,3,Nail Trim,A complete nail trim package for your pet.,56.09
+98,2,Haircut,A complete haircut package for your pet.,149.13
+49,2,Haircut,A complete haircut package for your pet.,125.43
+15,4,Nail Trim,A complete nail trim package for your pet.,70.51
+38,1,Haircut,A complete haircut package for your pet.,137.49
+101,4,Bath,A complete bath package for your pet.,96.09
+56,3,Nail Trim,A complete nail trim package for your pet.,146.84
+42,5,Bath,A complete bath package for your pet.,104.1
+88,3,Haircut,A complete haircut package for your pet.,104.76
+75,3,Bath,A complete bath package for your pet.,66.24
+71,2,Nail Trim,A complete nail trim package for your pet.,143.58
+88,4,Bath,A complete bath package for your pet.,114.74
+137,2,Bath,A complete bath package for your pet.,83.11
+38,2,Bath,A complete bath package for your pet.,124.47
+29,3,Haircut,A complete haircut package for your pet.,81.81
+145,1,Nail Trim,A complete nail trim package for your pet.,147.87
+33,3,Haircut,A complete haircut package for your pet.,28.63
+137,3,Bath,A complete bath package for your pet.,144.4
+137,4,Bath,A complete bath package for your pet.,56.73
+76,2,Haircut,A complete haircut package for your pet.,31.45
+38,3,Nail Trim,A complete nail trim package for your pet.,35.39
+111,3,Nail Trim,A complete nail trim package for your pet.,33.07
+117,2,Nail Trim,A complete nail trim package for your pet.,83.89
+6,3,Nail Trim,A complete nail trim package for your pet.,136.48
+56,4,Haircut,A complete haircut package for your pet.,135.09
+55,4,Haircut,A complete haircut package for your pet.,117.68
+117,3,Haircut,A complete haircut package for your pet.,30.89
+55,5,Bath,A complete bath package for your pet.,47.29
+42,6,Bath,A complete bath package for your pet.,100.62
+49,3,Bath,A complete bath package for your pet.,130.55
+26,4,Haircut,A complete haircut package for your pet.,35.18
+77,4,Nail Trim,A complete nail trim package for your pet.,27.04
+98,3,Nail Trim,A complete nail trim package for your pet.,95.75
+111,4,Nail Trim,A complete nail trim package for your pet.,38.78
+29,4,Nail Trim,A complete nail trim package for your pet.,58.14
+30,4,Nail Trim,A complete nail trim package for your pet.,48.54
+145,2,Nail Trim,A complete nail trim package for your pet.,109.66
+96,4,Nail Trim,A complete nail trim package for your pet.,145.87
+134,2,Haircut,A complete haircut package for your pet.,95.84
+68,4,Bath,A complete bath package for your pet.,120.09
+104,4,Bath,A complete bath package for your pet.,95.81
+122,2,Nail Trim,A complete nail trim package for your pet.,44.75
+139,8,Nail Trim,A complete nail trim package for your pet.,107.78
+109,2,Haircut,A complete haircut package for your pet.,109.77
+111,5,Bath,A complete bath package for your pet.,126.98
+111,6,Bath,A complete bath package for your pet.,40.26
+90,4,Haircut,A complete haircut package for your pet.,56.32
+114,2,Haircut,A complete haircut package for your pet.,52.74
+11,1,Bath,A complete bath package for your pet.,76.24
+139,9,Nail Trim,A complete nail trim package for your pet.,125.15
+98,4,Haircut,A complete haircut package for your pet.,93.75
+114,3,Haircut,A complete haircut package for your pet.,62.9
+122,3,Haircut,A complete haircut package for your pet.,103.77
+104,5,Nail Trim,A complete nail trim package for your pet.,66.6
+96,5,Haircut,A complete haircut package for your pet.,90.32
+6,4,Haircut,A complete haircut package for your pet.,66.12
+135,1,Bath,A complete bath package for your pet.,59.38
+82,3,Bath,A complete bath package for your pet.,81.25
+112,3,Nail Trim,A complete nail trim package for your pet.,33.04
+38,4,Haircut,A complete haircut package for your pet.,54.78
+77,5,Haircut,A complete haircut package for your pet.,142.28
+55,6,Haircut,A complete haircut package for your pet.,96.76
+82,4,Haircut,A complete haircut package for your pet.,124.01
+26,5,Haircut,A complete haircut package for your pet.,50.77
+96,6,Haircut,A complete haircut package for your pet.,26.63
+77,6,Bath,A complete bath package for your pet.,134.35
+56,5,Haircut,A complete haircut package for your pet.,30.81
+114,4,Haircut,A complete haircut package for your pet.,52.36
+90,5,Haircut,A complete haircut package for your pet.,121.9
+26,6,Bath,A complete bath package for your pet.,94.34
+102,3,Haircut,A complete haircut package for your pet.,44.92
+82,5,Nail Trim,A complete nail trim package for your pet.,121.17
+137,5,Haircut,A complete haircut package for your pet.,75.2
+77,7,Nail Trim,A complete nail trim package for your pet.,102.56
+26,7,Nail Trim,A complete nail trim package for your pet.,43.25
+26,8,Haircut,A complete haircut package for your pet.,75.81
+42,7,Haircut,A complete haircut package for your pet.,103.75
+124,3,Bath,A complete bath package for your pet.,133.23
+145,3,Nail Trim,A complete nail trim package for your pet.,58.33
+134,3,Bath,A complete bath package for your pet.,141.82
+98,5,Bath,A complete bath package for your pet.,84.8
+137,6,Bath,A complete bath package for your pet.,42.56
+18,4,Bath,A complete bath package for your pet.,40.48
+137,7,Nail Trim,A complete nail trim package for your pet.,83.3
+71,3,Nail Trim,A complete nail trim package for your pet.,38.47
+90,6,Nail Trim,A complete nail trim package for your pet.,132.13
+90,7,Haircut,A complete haircut package for your pet.,37.38
+71,4,Nail Trim,A complete nail trim package for your pet.,111.66
+68,5,Haircut,A complete haircut package for your pet.,80.79
+104,6,Nail Trim,A complete nail trim package for your pet.,28.18
+56,6,Nail Trim,A complete nail trim package for your pet.,111.61
+124,4,Haircut,A complete haircut package for your pet.,76.37
+89,4,Haircut,A complete haircut package for your pet.,104.73
+89,5,Bath,A complete bath package for your pet.,99.61
+52,1,Nail Trim,A complete nail trim package for your pet.,60.06
+112,4,Bath,A complete bath package for your pet.,102.26
+49,4,Nail Trim,A complete nail trim package for your pet.,106.25
+77,8,Bath,A complete bath package for your pet.,78.12
+55,7,Haircut,A complete haircut package for your pet.,123.98
+114,5,Nail Trim,A complete nail trim package for your pet.,34.4
+32,1,Nail Trim,A complete nail trim package for your pet.,81.18
+104,7,Haircut,A complete haircut package for your pet.,30.74
+137,8,Haircut,A complete haircut package for your pet.,149.34
+11,2,Nail Trim,A complete nail trim package for your pet.,115.69
+98,6,Nail Trim,A complete nail trim package for your pet.,108.28
+112,5,Bath,A complete bath package for your pet.,58.31
+98,7,Bath,A complete bath package for your pet.,133.52
+98,8,Haircut,A complete haircut package for your pet.,93.1
+101,5,Haircut,A complete haircut package for your pet.,134.74
+71,5,Bath,A complete bath package for your pet.,129.37
+112,6,Haircut,A complete haircut package for your pet.,135.97
+117,4,Haircut,A complete haircut package for your pet.,134.1
+76,3,Haircut,A complete haircut package for your pet.,133.78
+98,9,Bath,A complete bath package for your pet.,97.86
+82,6,Nail Trim,A complete nail trim package for your pet.,122.15
+102,4,Bath,A complete bath package for your pet.,84.92
+109,3,Bath,A complete bath package for your pet.,102.92
+30,5,Haircut,A complete haircut package for your pet.,99.43
+133,3,Bath,A complete bath package for your pet.,63.4
+59,1,Nail Trim,A complete nail trim package for your pet.,125.42
+101,6,Bath,A complete bath package for your pet.,30.29
+124,5,Nail Trim,A complete nail trim package for your pet.,77.55
+93,4,Haircut,A complete haircut package for your pet.,145.7
+124,6,Bath,A complete bath package for your pet.,124.73
+114,6,Bath,A complete bath package for your pet.,128.22
+11,3,Bath,A complete bath package for your pet.,60.5
+109,4,Bath,A complete bath package for your pet.,134.32
+49,5,Bath,A complete bath package for your pet.,110.95
+76,4,Bath,A complete bath package for your pet.,60.76
+11,4,Nail Trim,A complete nail trim package for your pet.,128.29
+77,9,Bath,A complete bath package for your pet.,131.36
+30,6,Nail Trim,A complete nail trim package for your pet.,75.87
+77,10,Nail Trim,A complete nail trim package for your pet.,30.47
+59,2,Bath,A complete bath package for your pet.,40.48
+135,2,Nail Trim,A complete nail trim package for your pet.,120.4
+109,5,Bath,A complete bath package for your pet.,148.23
+76,5,Bath,A complete bath package for your pet.,88.66
+59,3,Bath,A complete bath package for your pet.,92.1
+32,2,Bath,A complete bath package for your pet.,80.57
+33,4,Haircut,A complete haircut package for your pet.,145.74
+11,5,Haircut,A complete haircut package for your pet.,34.0
+117,5,Haircut,A complete haircut package for your pet.,81.71
+29,5,Bath,A complete bath package for your pet.,125.1
+29,6,Haircut,A complete haircut package for your pet.,96.18
+69,4,Haircut,A complete haircut package for your pet.,76.95
+6,5,Bath,A complete bath package for your pet.,142.11
+42,8,Bath,A complete bath package for your pet.,28.41
+122,4,Bath,A complete bath package for your pet.,40.71
+75,4,Nail Trim,A complete nail trim package for your pet.,62.91
+52,2,Nail Trim,A complete nail trim package for your pet.,44.68
+134,4,Haircut,A complete haircut package for your pet.,123.37
+114,7,Nail Trim,A complete nail trim package for your pet.,35.22
+139,10,Haircut,A complete haircut package for your pet.,58.56
+38,5,Bath,A complete bath package for your pet.,96.46
+42,9,Nail Trim,A complete nail trim package for your pet.,95.42
+124,7,Nail Trim,A complete nail trim package for your pet.,51.2
+68,6,Haircut,A complete haircut package for your pet.,71.18
+26,9,Bath,A complete bath package for your pet.,114.35
+6,6,Haircut,A complete haircut package for your pet.,33.96
+117,6,Nail Trim,A complete nail trim package for your pet.,55.57
+42,10,Bath,A complete bath package for your pet.,111.39
+30,7,Nail Trim,A complete nail trim package for your pet.,37.73
+32,3,Nail Trim,A complete nail trim package for your pet.,51.79
+122,5,Bath,A complete bath package for your pet.,52.39
