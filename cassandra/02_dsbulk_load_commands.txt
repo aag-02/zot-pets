@@ -1,0 +1,49 @@
+# 02_dsbulk_load_commands.txt
+# ETL steps: Postgres -> CSV -> denormalized -> Cassandra
+
+# --- Postgres exports  ---
+\copy (SELECT user_id, name, email, street, city, state, join_date
+       FROM zot_pets."user" ORDER BY user_id)
+TO './data/user.csv' WITH (FORMAT csv, HEADER true);
+
+\copy (SELECT owner_id, pet_id, name, species, breed, dob, notes, photo_urls
+       FROM zot_pets.pet ORDER BY owner_id, pet_id)
+TO './data/pet.csv' WITH (FORMAT csv, HEADER true);
+
+\copy (SELECT appointment_id, pet_owner_id, pet_id,
+              to_char(appointment_datetime AT TIME ZONE 'UTC',
+                      'YYYY-MM-DD"T"HH24:MI:SS"Z"') AS appointment_datetime
+       FROM zot_pets.appointment ORDER BY appointment_id)
+TO './data/appointment.csv' WITH (FORMAT csv, HEADER true);
+
+\copy (SELECT groomer_id, service_id, service_type::text AS service_type, description, price
+       FROM zot_pets.service
+       ORDER BY service_type, groomer_id, service_id)
+TO './data/service.csv' WITH (FORMAT csv, HEADER true);
+
+\copy (SELECT a.appointment_id, a.pet_owner_id, a.pet_id, asj.service_groomer_id AS groomer_id,
+              to_char(a.appointment_datetime AT TIME ZONE 'UTC',
+                      'YYYY-MM-DD"T"HH24:MI:SS"Z"') AS appointment_datetime
+       FROM zot_pets.appointment a
+       JOIN zot_pets.appointment_service asj ON asj.appointment_id = a.appointment_id
+       ORDER BY groomer_id, appointment_datetime DESC, appointment_id)
+TO './data/appointment_by_groomer.csv' WITH (FORMAT csv, HEADER true);
+
+\copy (SELECT pu.purchase_id, pu.pet_owner_id, pu.product_id, pu.groomer_id, pu.purchase_date, pr.price
+       FROM zot_pets.purchase pu
+       JOIN zot_pets.product pr ON pr.product_id = pu.product_id
+       ORDER BY pu.pet_owner_id, pu.purchase_date, pu.purchase_id)
+TO './data/purchase_by_owner.csv' WITH (FORMAT csv, HEADER true);
+
+# Base tables
+dsbulk load -url ./data/user.csv        -header true -k zot_pets -t "user"       -b ./secure-connect.zip -u <CLIENT_ID> -p <CLIENT_SECRET>
+dsbulk load -url ./data/pet.csv         -header true -k zot_pets -t pet            -b ./secure-connect.zip -u <CLIENT_ID> -p <CLIENT_SECRET>
+dsbulk load -url ./data/appointment.csv -header true -k zot_pets -t appointment    -b ./secure-connect.zip -u <CLIENT_ID> -p <CLIENT_SECRET>
+
+# Query tables
+dsbulk load -url ./data/pet.csv                       -header true -k zot_pets -t pets_by_species                 -b ./secure-connect.zip -u <CLIENT_ID> -p <CLIENT_SECRET>
+dsbulk load -url ./data/pet.csv                       -header true -k zot_pets -t pets_by_species_sorted_by_age   -b ./secure-connect.zip -u <CLIENT_ID> -p <CLIENT_SECRET>
+dsbulk load -url ./data/pet.csv                       -header true -k zot_pets -t pets_by_owner_sorted_by_age     -b ./secure-connect.zip -u <CLIENT_ID> -p <CLIENT_SECRET>
+dsbulk load -url ./data/service.csv                   -header true -k zot_pets -t services_by_type                -b ./secure-connect.zip -u <CLIENT_ID> -p <CLIENT_SECRET>
+dsbulk load -url ./data/appointment_by_groomer.csv    -header true -k zot_pets -t appointments_by_groomer         -b ./secure-connect.zip -u <CLIENT_ID> -p <CLIENT_SECRET>
+dsbulk load -url ./data/purchase_by_owner.csv         -header true -k zot_pets -t purchases_by_owner              -b ./secure-connect.zip -u <CLIENT_ID> -p <CLIENT_SECRET>
