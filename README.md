@@ -1,6 +1,6 @@
 # ZotPets — PostgreSQL & Cassandra ETL Project
 
-## 🐾 Overview
+## Overview
 
 **ZotPets** is a data engineering and analytics project built around a mock pet-care platform connecting pet owners and groomers.
 The project demonstrates:
@@ -10,7 +10,7 @@ The project demonstrates:
 
 ---
 
-## 🧩 Architecture Summary
+## Architecture Summary
 
 **PostgreSQL → CSV → Cassandra (DataStax Astra)**
 
@@ -20,7 +20,7 @@ The project demonstrates:
 
 ---
 
-## 🔍 PostgreSQL Highlights
+## PostgreSQL Highlights
 
 * Loaded **9 normalized relational tables** via `COPY` with full referential integrity.
 * Wrote **10+ advanced SQL queries** using:
@@ -32,7 +32,7 @@ The project demonstrates:
 
 ---
 
-## 🗄️ Cassandra Highlights
+## Cassandra Highlights
 
 * **Engineered a batch ETL pipeline** to migrate relational data into **Cassandra (DataStax Astra)** using `dsbulk`.
 * Designed **query-optimized, denormalized schemas** with proper partition and clustering keys for low-latency reads:
